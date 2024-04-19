@@ -1,48 +1,51 @@
-import pytest
+import time
 
 
 def test_1():
+    time.sleep(2)
     assert True
 
 
-@pytest.mark.smoke
 def test_2():
+    time.sleep(2)
     assert True
 
 
-@pytest.mark.order(1)
 def test_3():
+    time.sleep(2)
     assert True
 
 
-@pytest.mark.smoke
-@pytest.mark.retest
 def test_4():
+    time.sleep(2)
     assert True
 
 
 def test_5():
+    time.sleep(2)
     assert True
 
 
-@pytest.mark.smoke
 def test_6():
+    time.sleep(2)
     assert True
 
 
 def test_7():
+    time.sleep(2)
     assert True
 
 
-@pytest.mark.regression
 def test_8():
+    time.sleep(2)
     assert True
 
 
 def test_9():
+    time.sleep(2)
     assert True
 
 
-@pytest.mark.smoke
 def test_10():
+    time.sleep(2)
     assert True
