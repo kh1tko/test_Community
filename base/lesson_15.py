@@ -22,5 +22,4 @@ students_grades = {
     'Mateus': 99
 }
 
-# Виведення словника з іменами та середніми балами студентів
 print("List of students grades:", students_grades)
