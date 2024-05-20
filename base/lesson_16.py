@@ -21,5 +21,5 @@ favorites = {
 }
 
 favorites.pop('sports')
-favorites.update({'serials': ['Game or thone', 'Breaking bad', 'Office']})
+favorites.update({'serials': ['Game of throne', 'Breaking bad', 'Office']})
 print(favorites)
